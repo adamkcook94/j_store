@@ -15,6 +15,7 @@ class ItemAdmin(admin.ModelAdmin):
         'image',
     )
 
+
 class Item_CatAdmin(admin.ModelAdmin):
     list_display = (
         'friendly_name',
