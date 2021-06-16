@@ -3,5 +3,24 @@ from .models import Item, Item_Cat
 
 # Register your models here.
 
-admin.site.register(Item)
-admin.site.register(Item_Cat)
+
+class ItemAdmin(admin.ModelAdmin):
+    list_display = (
+        'name',
+        'sku',
+        'metal',
+        'brand',
+        'price',
+        'description',
+        'image',
+    )
+
+class Item_CatAdmin(admin.ModelAdmin):
+    list_display = (
+        'friendly_name',
+        'name',
+    )
+
+
+admin.site.register(Item, ItemAdmin)  
+admin.site.register(Item_Cat, Item_CatAdmin)
