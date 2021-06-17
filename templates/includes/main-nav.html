@@ -6,9 +6,8 @@
                 All Items
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Category</a>
+                <a href="{% url 'all_items' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'all_items' %}?sort=brand&direction=asc" class="dropdown-item ">By Brand (A-Z)</a>
                 <a href="{% url 'all_items' %}" class="dropdown-item">All Watches & Chains</a>
             </div>
         </li>
