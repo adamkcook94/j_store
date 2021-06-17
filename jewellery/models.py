@@ -5,6 +5,9 @@ from django.db import models
 
 class Item_Cat(models.Model):
 
+    class Meta:
+        verbose_name_plural = 'Item_Cats'
+        
     name = models.CharField(max_length=254)
     friendly_name = models.CharField(max_length=254, null=True, blank=True)
 
