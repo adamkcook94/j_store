@@ -3,6 +3,7 @@ from django.contrib import messages
 from django.db.models import Q
 from .models import Item, Item_Cat
 from django.db.models.functions import Lower
+from .forms import ItemForm
 
 # Create your views here.
 
@@ -66,3 +67,13 @@ def items_description(request, item_id):
     }
 
     return render(request, 'items/item_description.html', context)
+
+def add_item(request):
+    """ Add a product to the store """
+    form = ItemForm()
+    template = 'items/add_item.html'
+    context = {
+        'form': form,
+    }
+
+    return render(request, template, context)
