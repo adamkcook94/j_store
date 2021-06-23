@@ -13,6 +13,7 @@ from bag.contexts import bag_contents
 import stripe
 import json
 
+
 @require_POST
 def cache_checkout_data(request):
     try:
@@ -123,16 +124,16 @@ def checkout(request):
         else:
             order_form = OrderForm()
 
-        if not stripe_public_key:
-            messages.warning(request, 'Stripe public key is missing. \
-                    Did you forget to set it in your environment?')
+    if not stripe_public_key:
+        messages.warning(request, 'Stripe public key is missing. \
+                Did you forget to set it in your environment?')
 
-        template = 'checkout/checkout.html'
-        context = {
-            'order_form': order_form,
-            'stripe_public_key': stripe_public_key,
-            'client_secret': intent.client_secret,
-        }
+    template = 'checkout/checkout.html'
+    context = {
+        'order_form': order_form,
+        'stripe_public_key': stripe_public_key,
+        'client_secret': intent.client_secret,
+    }
 
     return render(request, template, context)
 
