@@ -13,9 +13,17 @@
 <div class="container h-100">
     <div class="row h-100">
         <div class="col-7 col-md-6 my-auto">
-            <h1 class="display-4 logo-font text-black">
+            <h3 class="display-4 home-txt logo-font text-white">
                 Shop the new range
-            </h1>
+            </h3>
+            <h3 class="smaller-home-txt logo-font text-white">
+                Shop the new range
+            </h3>
+            <div id="delivery-banner" class="row">
+                <div class="col text-white">
+                    <h4 class="logo-font my-1">Free delivery on orders over £{{ free_delivery_threshold }}!</h4>
+                </div>
+            </div>
             <div class="my-5">
                 <h4>
                     <a href="{% url 'all_items' %}"

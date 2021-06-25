@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/dark_watch_model.png') no-repeat center center fixed;
+    background: url('/media/tommaso-de-benedict.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -72,6 +72,10 @@ body {
 
 .bg-black {
     background: #000 !important;
+}
+
+.smaller-home-txt {
+    display: none;
 }
 
 .overlay {
@@ -322,4 +326,18 @@ input[name='q']::placeholder {
     body {
         height: calc(100vh - 116px);
     }
+}
+
+@media (max-width: 991px) {
+    .home-txt {
+        display: none;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .smaller-home-txt {
+        display: block;
+    }
+
 }
