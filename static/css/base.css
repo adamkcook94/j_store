@@ -3,11 +3,32 @@ html {
 }
 
 body {
-    background: url('/media/tommaso-de-benedict.jpg') no-repeat center center fixed;
+    background: url('/media/rolex-1.png') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
-    font-family: 'Noto Serif', serif;
+    font-family: 'EB Garamond', serif;
+}
+
+/* Font fams */
+
+.lusso-txt {
+    font-family: 'Playfair Display', serif;
+}
+
+
+/* Navbar */
+
+.custom-navbar {
+    background-color: rgb(121, 120, 120);
+}
+
+.hvr-underline-from-center:before {
+    background: #ff3503;
+}
+
+.crown-icon {
+    color: rgb(0, 0, 0);
 }
 
 /* from Bulma */
@@ -30,7 +51,7 @@ body {
 .shop-now-button {
     background: black;
     color: white;
-    min-width: 260px;
+    min-width: 160px;
 }
 
 .btn-black {
@@ -340,4 +361,14 @@ input[name='q']::placeholder {
         display: block;
     }
 
+}
+
+.shop-chains-mquery {
+    margin-top: 0px;
+}
+
+@media (max-width: 991px) {
+    .shop-chains-mquery {
+        margin-top: 25px;
+    }
 }

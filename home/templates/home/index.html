@@ -13,22 +13,26 @@
 <div class="container h-100">
     <div class="row h-100">
         <div class="col-7 col-md-6 my-auto">
-            <h3 class="display-4 home-txt logo-font text-white">
-                Shop the new range
+            <h3 class="display-4 home-txt logo-font text-white lusso-txt">
+                LUSSO JEWELS
             </h3>
-            <h3 class="smaller-home-txt logo-font text-white">
+            <h3 class="smaller-home-txt text-white">
                 Shop the new range
             </h3>
             <div id="delivery-banner" class="row">
                 <div class="col text-white">
-                    <h4 class="logo-font my-1">Free delivery on orders over £{{ free_delivery_threshold }}!</h4>
+                    <h4 class="logo-font my-1 eb-garamond-text">Free delivery on orders over
+                        £{{ free_delivery_threshold }}</h4>
                 </div>
             </div>
             <div class="my-5">
                 <h4>
-                    <a href="{% url 'all_items' %}"
-                        class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop
-                        Now</a>
+                    <a href="{% url 'all_items' %}?item_cat=Sekonda,Casio,Tommy Hilfiger"
+                        class="shop-now-button btn btn-lg rounded-0 py-3 eb-garamond-text mr-2">Shop
+                        Watches</a>
+                    <a href="{% url 'all_items' %}?item_cat=Silver,Gold"
+                        class="shop-now-button btn btn-lg rounded-0 py-3 eb-garamond-text shop-chains-mquery">Shop
+                        Chains</a>
                 </h4>
             </div>
         </div>
