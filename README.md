@@ -60,19 +60,17 @@ The following images are wireframes from each page of the website:
 
 [HERE] 
 
-### Client Stories 
+## Client Stories 
 
 * As a first time visitor I want to know exactly what the website is trying to sell me, with quick pathways to the products they are selling. 
 
 * As somebody who is always intrigued by the latest releases from my favourite brands I would like a website that stays up to date. 
 
-* As a regular and frequent purchaser of these particular products I want the payment process to be simple and easy whilst also maintaining proper safety standards. 
-
-* As a purchaser, I want a confirmation email so I know my purchase has gone through. 
+* As a regular and frequent purchaser of these particular products I want the payment process to be a fluid process whilst maintaining proper safety standards.
 
 * As someone that is particular interested in specific brands, I want to be able to easily filter through the brands I enjoy the most.  
 
-### Features 
+## Features 
 
 ### Home 
 
@@ -140,13 +138,13 @@ The Product Management page allows the site owner to add new items to the store,
 
 The ‘My Profile’ page contains a registered user’s delivery information which they are able to make changes to, as well as an order history section which gives them proof of their past purchases. 
 
-### Features to Implement in the future 
+## Features to Implement in the future 
 
 * As a jewellery store there would need to be a greater variation of products such as rings, earrings etc. 
 
 * In such a competitive industry the business would need to offer greater discounts and deals, so implementing a ‘deals’ section would be a viable addition in the future. 
 
-### Technologies Used 
+## Technologies Used 
 
 * HTML, CSS, Javascript and Python programming languages 
 
@@ -172,11 +170,44 @@ The ‘My Profile’ page contains a registered user’s delivery information wh
 
 ## Testing 
 
+- HTML Code Validator
+- CSS Code Validator
+- JSHint
+
 ### Client Stories Testing 
 
-### Testing Client Stories 
+1. As a first time visitor I want to know exactly what the website is trying to sell me, with quick pathways to the products they are selling. 
+
+i. The homepage offers the user two bold buttons with a direct link to both the 'Watches' and 'Chains' page, as well as a clear navigation bar routing users
+to all of the website's products. 
+
+ii. Due to the business' name 'Lusso Jewels' being an obvious advert for what the website is trying to sell, displaying the business name in a bold format
+instantly lets visitors understand the website's motive.
+
+2. As somebody who is always intrigued by the latest releases from my favourite brands I would like a website that stays up to date. 
+
+i. The task for the site owner to regularly update his website's item availablity is made simple through the website's design as the site owner can navigate to 
+'Product Management' in order to add an item.
+
+3. As a regular and frequent purchaser of these particular products I want the payment process to be a fluid process whilst maintaining proper safety standards.
+
+i. Payment methods follow a simple route. Users need to do is select an item, add to bag and then checkout to complete the payment process.  
+
+ii. A confirmation email will be sent to users which allow users to feel safe knowing they have evidence of their order.
+
+4. As someone that is particular interested in specific brands, I want to be able to easily filter through the brands I enjoy the most.  
+
+i. On the homepage there is a clearly visible search bar where users can type in their favourite brands or preferred metals and be shown all items that match the search.
+
+ii. In the navigation bar when you click on either 'Watches' or 'Chains' you receive a dropdown menu where users may select either the brand or metal they are interested
+in.
+
+iii. On each of the 'Watches' and 'Chains' page there are buttons of the brand/metal users may be interested in. When a user clicks on these buttons, the category of the 
+item will be displayed.
 
 ### Manual Testing of all elements and functionality on every page. 
+
+
 
 ## Further Testing: 
 
