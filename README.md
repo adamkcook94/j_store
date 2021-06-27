@@ -138,6 +138,10 @@ The Product Management page allows the site owner to add new items to the store,
 
 The ‘My Profile’ page contains a registered user’s delivery information which they are able to make changes to, as well as an order history section which gives them proof of their past purchases. 
 
+### Edit Item
+
+The ‘Edit Item' page allows the site owner to access existing items and make the appropriate changes to them.
+
 ## Features to Implement in the future 
 
 * As a jewellery store there would need to be a greater variation of products such as rings, earrings etc. 
@@ -174,7 +178,7 @@ The ‘My Profile’ page contains a registered user’s delivery information wh
 - CSS Code Validator
 - JSHint
 
-### Client Stories Testing 
+## Client Stories Testing 
 
 1. As a first time visitor I want to know exactly what the website is trying to sell me, with quick pathways to the products they are selling. 
 
@@ -205,9 +209,288 @@ in.
 iii. On each of the 'Watches' and 'Chains' page there are buttons of the brand/metal users may be interested in. When a user clicks on these buttons, the category of the 
 item will be displayed.
 
-### Manual Testing of all elements and functionality on every page. 
+## Manual Testing of all elements and functionality on every page. 
 
+### Home
 
+1. Navigation Bar
+
+i. Access the home page.
+
+ii. Right click and select "inspect", change the screen sizes to that of a mobile or tablet device to confirm that the navigation bar is responsive.
+
+iii. Hover over each section of the navigation bar to make sure the 'hover underline from center' effect is working.
+
+iv. Click on each navigation link to make sure there is a working dropdown menu.
+
+v. Click each dropdown item of the navigation bar to make sure each item links correctly to the relevant pages, including the 'My Account', 'Bag' and 'Crown' icons. 
+
+2. Search bar
+
+i. Access the home page.
+
+ii. Type in a range of common words relating to the items being sold on the website.
+
+iii. Confirm each relevant word, i.e. "Casio" returns the appropriate results.
+
+3. Background Image
+
+i. Access the home page.
+
+ii. Right click and select "inspect", change the screen sizes to that of a mobile or tablet device to confirm that the background image has the correct responsiveness.
+
+4. 'Shop Now' buttons
+
+i. Access the home page.
+
+ii. Click on each of the 'Shop Watches' and 'Shop Chains' button to make sure they link to the appropriate pages. 
+
+iii. Right click and select "inspect", change the screen sizes to that of a mobile or tablet device to confirm that the buttons structure themselves sufficiently. 
+
+### All Items 
+
+1. Item Structure 
+
+i. Access the 'All Items' page.
+
+ii. Right click and select "inspect", change the screen sizes to that of a mobile or tablet device to confirm that the item images and the correct structure is maintained.
+
+2. 'Sort by' box
+
+i. Access the 'All Items' page.
+
+ii. Click on the 'Sort by' box to make sure a dropdown list occurs.
+
+iii. Click on each sort option to make sure each function carries out the intended filter.
+
+iv. Right click and select "inspect", change the screen sizes to that of a mobile or tablet device to confirm that 'Sort by' box maintains the correct responsiveness.
+
+3. Edit and Delete buttons.
+
+i. Access the 'All Items' page.
+
+ii. Log in to a super user account.
+
+iii. Click on the 'edit' button underneath an item's display to make sure user is redirected to the 'Edit Item' page.
+
+iv. Create a fake item and click on the 'delete' option to confirm the item is removed from the database.
+
+4. Item Description Redirect
+
+i. Access the 'All Items' page.
+
+ii. Click on an item image to ensure users will be redirected to the 'Item Description' page.
+
+### Watches and Chains 
+
+1. Item Structure 
+
+i. Access the 'Watches'/'Chains' page.
+
+ii. Right click and select "inspect", change the screen sizes to that of a mobile or tablet device to confirm that the item images and the correct structure is maintained.
+
+2. 'Sort by' box
+
+i. Access the 'Watches'/'Chains' page.
+
+ii. Click on the 'Sort by' box to make sure a dropdown list occurs.
+
+iii. Click on each sort option to make sure each function carries out the intended filter.
+
+iv. Right click and select "inspect", change the screen sizes to that of a mobile or tablet device to confirm that 'Sort by' box maintains the correct responsiveness.
+
+3. Edit and Delete buttons.
+
+i. Access the 'Watches'/'Chains' page.
+
+ii. Log in to a super user account.
+
+iii. Click on the 'edit' button underneath an item's display to make sure user is redirected to the 'Edit Item' page.
+
+iv. Create a fake item and click on the 'delete' option to confirm the item is removed from the database.
+
+4. Item Description Redirect
+
+i. Access the 'Watches'/'Chains' page.
+
+ii. Click on an item image to ensure users will be redirected to the 'Item Description' page.
+
+5. Brand/Metal Buttons Filtering
+
+i. Access the 'Watches'/'Chains' page.
+
+ii. Click on the brand/metal buttons above the items to ensure the correct categories of items show on the page.
+
+### Item Description 
+
+1. Add to Bag Functionality
+
+i. Access the 'Item's Description' page.
+
+ii. Click on 'Add to Bag' to ensure a success toast appears.
+
+iii. Check shopping bag to make sure the item has been sent to the bag.
+
+2. Keep Shopping Redirect
+
+i. Access the 'Item's Description' page.
+
+ii. Click on 'Keep Shopping' to ensure visitors will be sent back to the 'All Items' page.
+
+3. Quantity Selector
+
+i. Access the 'Item's Description' page.
+
+ii. Click on both the addition and subtraction buttons to make sure the number goes up and down.
+
+iii. Upon selecting a number click on 'Add to Bag' to ensure that the number in the quantity selector amounts to the same number in the shopping bag.
+
+### Bag
+
+1. Update and Remove buttons
+
+i. Access the 'Bag' page.
+
+ii. Add items to the quantity selector and click 'Update' to ensure the correct number of items are displayed and calculated in the bag.
+
+iii. Add an item to bag and click 'Remove' to ensure item is removed from the bag.
+
+2. Item Information
+
+i. Access the 'Bag' page.
+
+ii. Ensure the item image is displayed correctly along with it's name, price and quantity selected by the consumer.
+
+3. Keep Shopping Redirect
+
+i. Access the 'Bag' page.
+
+ii. Click on 'Keep Shopping' to ensure visitors will be sent back to the 'All Items' page.
+
+4. Correct Price Total
+
+i. Add multiple items to the bag page
+
+ii. Access the 'Bag' page.
+
+iii. Ensure the correct sub-total is displayed for each item.
+
+iv. Ensure the correct grand-total is displayed for all items.
+
+5. Secure Checkout Button
+
+i. Access the 'Bag' page.
+
+ii. Add items to the bag.
+
+iii. Click on 'Secure Checkout' button to ensure consumer is directed to the 'Checkout' page.
+
+### Checkout
+
+1. Form Details
+
+i. Access 'Checkout' page with an order ready to purchase.
+
+ii. Fill out delivery form incorrectly to ensure form prompts the necessary fields to be filled.
+
+iii. Fill out the delivery form correctly and click 'Complete Order' button to ensure payment process is fulfilled.
+
+2. Adjust Bag Button
+
+i. Access 'Checkout' page.
+
+ii. Click on 'Adjust Bag' button to make sure visitors will be redirected to the 'Bag' page.
+
+### Checkout Success
+
+1. Order Information 
+
+i. Complete an order.
+
+ii. Ensure order details are correct.
+
+2. 'All Items' Redirect
+
+i. Complete an order.
+
+ii. Click on "Now checkout some of our other products!" button to ensure it redirects the consumer to the 'All Items' page.
+
+### Register 
+
+1. Registration Functionality
+
+i. Access 'Register' page.
+
+ii. Fill out account registration details incorrectly to ensure fake accounts cannot be created.
+
+iii. Fill out account registration details correctly. 
+
+iv. Once details have been entered successfully ensure rerouting to the 'Confirm Email' page takes place.
+
+v. Upon account verification, enter details into login page to ensure account has been successfully created.
+
+2. Sign In Redirect
+
+i. Access 'Register' page.
+
+ii. Click on 'sign in' button to ensure those with accounts can be redirected to the login page.
+
+iii. Click on 'back to login' button to ensure those with accounts can be redirect to the login page.
+
+### Login 
+
+1. Login Functionality
+
+i. Access 'Login' page.
+
+ii. Enter correct account details and click 'Login' to ensure account is logged in, accompanied by a confirmation toast.
+
+2. Sign Up Redirect
+
+i. Access 'Login' page.
+
+ii. Click on 'sign up' button to ensure those with accounts can be redirected to the 'Register' page.
+
+3. Forgot Password
+
+i. Access 'Login' page.
+
+ii. Click on "Forgot Password?" to ensure users will be redirected to the password reset page.
+
+### Product Management
+
+1. Restricted Access
+
+i. With a normal user account, enter the product management page link into the address bar to make sure error toast 
+with the message "Sorry only J Store employees can do that" appears.
+
+ii. With a normal user account, click on 'My Account' to ensure 'Product Management' is not available.
+
+2. Add Item Functionality
+
+i. With a superuser account, click on 'My Account' to ensure 'Product Management' is available.
+
+ii. Fill out form incorrectly to ensure form prompts a suitable item.
+
+iii. Fill out form correctly to ensure form accepts a new item being added to the items page. 
+
+iv. Click 'Add Item' to ensure redirection to the added item's description page occurs.
+
+v. Click on 'All Items' in the navigation bar to ensure added item is visible.
+
+### My Profile
+
+1. Update Information Functionality
+
+i. Ensure user's information is displayed correctly on the page.
+
+ii. Upon changing fields on the user form, click 'Update Information' and refresh the page to make sure details have been altered.
+
+2. Order History
+
+i. Make a successful order on the website with account.
+
+ii. Upon completion of the order, head to 'My Profile' and check order history to ensure order has appeared.
 
 ## Further Testing: 
 

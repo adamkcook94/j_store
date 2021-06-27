@@ -20,11 +20,11 @@ body {
 /* Navbar */
 
 .custom-navbar {
-    background-color: rgb(175, 173, 173);
+    background-color: white;
 }
 
-.hvr-underline-from-center:before {
-    background: #ff3503;
+.hvr-underline-from-center {
+    color: #ff3503;
 }
 
 .crown-icon {
