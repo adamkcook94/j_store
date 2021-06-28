@@ -176,6 +176,17 @@ The ‘Edit Item' page allows the site owner to access existing items and make t
 
 - HTML Code Validator
 - CSS Code Validator
+
+<img src="media/base_css_check.png" alt="CSS Validator" title="CSS Validator" width="1359" height="793">
+CSS Check for the base css.
+
+<img src="media/profile_css_check.png" alt="CSS Validator" title="CSS Validator" width="1359" height="793">
+CSS Check for the profile page's css.
+
+<img src="media/checkout_css_check.png" alt="CSS Validator" title="CSS Validator" width="1359" height="793">
+CSS Check of the Checkout page's css. 
+
+
 - JSHint
 
 ## Client Stories Testing 
