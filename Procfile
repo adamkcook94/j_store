@@ -1,0 +1,1 @@
+web: gunicorn j_store.wsgi:application
