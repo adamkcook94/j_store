@@ -2,7 +2,7 @@
 
 This project is designed to be a website targeted at males who want to improve their style with either watches or chains. The website will allow users to be able to view a wide selection of watches/chains and give them the ability to buy the items on view. 
 
-Access to the website can be found [HERE[ () 
+Access to the website can be found [HERE](https://lusso-jewels.herokuapp.com/) 
 
 The goals of the website are as follows: 
 
@@ -173,6 +173,8 @@ The ‘Edit Item' page allows the site owner to access existing items and make t
 ## Testing 
 
 - HTML Code Validator
+
+<img src="media/html_check.png" alt="CSS Validator" title="CSS Validator" width="1359" height="793">
 
 - W3C CSS Code Validation
 
@@ -498,10 +500,6 @@ ii. Upon changing fields on the user form, click 'Update Information' and refres
 i. Make a successful order on the website with account.
 
 ii. Upon completion of the order, head to 'My Profile' and check order history to ensure order has appeared.
-
-## Further Testing: 
-
-## Deployment 
 
 ## How to run this project locally 
 
