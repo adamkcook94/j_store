@@ -60,6 +60,72 @@ The following images are wireframes from each page of the website:
 
 [HERE] 
 
+<img src="media/wireframes/Home.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/Home_Tablet.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/Home_Mobile.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/All_Items.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/All_Items_Tablet.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/All_Items_Mobile.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/Chains.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/Chains_Tablet.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/Chains_Mobile.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/Watches.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/Watches_Tablet.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/Watches_Mobile.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/Items_Description.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/Item_Description_Tablet.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/Item_Description_Mobile.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/Shopping_Bag.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/Shopping_Bag_Tablet.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/Shopping_Bag_Mobile.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/Checkout.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/Checkout_Tablet.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/Checkout_Mobile.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/Login.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/Login_Tablet.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/Login_Mobile.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/Register.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/Register_Tablet.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/Register_Mobile.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/My_Profile.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/My_Profile_Tablet.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/My_Profile_Mobile.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/Product_Management.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/Product_Management_Tablet.png" alt="CSS Validator" title="Home" width="500" height="200">
+
+<img src="media/wireframes/Product_Management_Mobile.png" alt="CSS Validator" title="Home" width="500" height="200">
+
 ## Client Stories 
 
 * As a first time visitor I want to know exactly what the website is trying to sell me, with quick pathways to the products they are selling. 
@@ -174,7 +240,7 @@ The ‘Edit Item' page allows the site owner to access existing items and make t
 
 - HTML Code Validator
 
-<img src="media/html_check.png" alt="CSS Validator" title="CSS Validator" width="1359" height="793">
+<img src="media/html_check.png" alt="CSS Validator" title="Html Validator" width="500" height="200">
 
 - W3C CSS Code Validation
 
