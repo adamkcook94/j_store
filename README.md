@@ -168,15 +168,13 @@ The ‘Edit Item' page allows the site owner to access existing items and make t
 
 * BootstrapCDN - Bootstrap 5 was used for the project’s structure and responsiveness. 
 
-* JSHint 
-
 * Balsamiq – Used to create wireframes for the website. 
 
 ## Testing 
 
 - HTML Code Validator
 
-- W3C Code Validation
+- W3C CSS Code Validation
 
 <img src="media/base_css_check.png" alt="CSS Validator" title="CSS Validator" width="1359" height="793">
 CSS Check for the base css.
@@ -186,8 +184,6 @@ CSS Check for the profile page's css.
 
 <img src="media/checkout_css_check.png" alt="CSS Validator" title="CSS Validator" width="1359" height="793">
 CSS Check of the Checkout page's css. 
-
-- JSHint
 
 ## Client Stories Testing 
 
