@@ -567,10 +567,12 @@ i. Make a successful order on the website with account.
 
 ii. Upon completion of the order, head to 'My Profile' and check order history to ensure order has appeared.
 
-## How to run this project locally 
-
-## Credits 
-
 ## Media 
 
+* HSamuels for images of Chains
+
+* Watchshop.com for images of Watches
+
 ## Acknowledgements 
+
+My tutor Narender who helped me throughout my project and Tutor Support at Code Institute who were always very helpful and did their best to help with my code.
